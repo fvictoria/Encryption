@@ -7,6 +7,8 @@ public class Main {
         System.out.println("Enter string");
         Scanner kbReader = new Scanner(System.in);
         String inPut = kbReader.nextLine();
+        char[] charArray = inPut.toCharArray();
+        
 
 
 
